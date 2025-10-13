@@ -1,0 +1,35 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html, body{
+    height: 100%;
+    width: 100%;
+}
+.page1, .page2, .page3{
+    height: 100vh;
+    width: 100%;
+}
+.page1{
+    background-color: rgb(64, 154, 206);
+}
+.page2{
+    background-color: rgb(42, 127, 177);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.page3{
+    background-color: rgb(10, 72, 107);
+}
+/* .fix-size{
+    width: 30%;
+} */
+.page2 img{
+    max-width: 20%;
+    height: 80%;
+    object-fit: cover;
+    object-position: bottom;
+    border-radius: 20px;
+}
